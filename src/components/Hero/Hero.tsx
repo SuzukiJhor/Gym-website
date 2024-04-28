@@ -57,7 +57,7 @@ function Hero() {
             <div className="heart-rate">
                 <img src={Heart} alt="Coração"/>
                 <span>Frequencia Cardíaca</span>
-                <spam>116 bpm</spam>
+                <span>116 bpm</span>
             </div>
 
             <img src={hero_image} alt="" className="hero-image"/>
