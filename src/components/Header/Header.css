@@ -14,3 +14,12 @@
     gap: 2rem;
     color: white;
 }
+
+.header-menu>li {
+    cursor: pointer;
+}
+
+.header-menu>li:hover {
+    color: var(--orange);
+    cursor: pointer;
+}
