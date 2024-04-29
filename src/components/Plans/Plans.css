@@ -24,7 +24,7 @@
     width: 15rem;
 }
 
-.plan:nth-child() {
+.plan:nth-child(2) {
     background: var(--planCard);
     transform: scale(1.1);
 }
@@ -69,6 +69,6 @@
     fill: white;
 }
 
-.btn {
+.plans>:nth-child(2)>button {
     color: var(--orange);
 }
