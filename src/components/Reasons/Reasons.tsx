@@ -45,6 +45,16 @@ function Reasons() {
                 </div>
             </div>
 
+            <span className="partners-text">
+                Nossos Parceiros
+            </span>
+
+            <div className="partners">
+                <img src={nb} alt="New Balance" />
+                <img src={adidas} alt="Adidas" />
+                <img src={nike} alt="Nike" />
+            </div>
+
         </div>
     </div>
   )
