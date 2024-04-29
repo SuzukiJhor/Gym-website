@@ -10,8 +10,15 @@ const Testimonials = () => {
             <span className="stroke-text">O que eles Dizem </span>
             <span>Sobre Nós</span>
             <span>
-                {testimonialsData[0].review}
-                </span>
+              {testimonialsData[0].review}
+            </span>
+            <span>
+              <span>
+                {testimonialsData[0].name}
+              </span>
+
+              {''} - {testimonialsData[0].status}
+            </span>
         </div>
 
         <div className="right-t">lado Direito</div>
