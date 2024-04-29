@@ -4,7 +4,9 @@ Este modelo fornece uma configuração mínima para fazer o React funcionar no V
 
 ### Apresentação:
 
-<img src="https://github.com/SuzukiJhor/Gym-website/assets/95131108/3e5a1eb8-2e97-44f5-8bfa-43382ca74ba2" alt="image" width="900" height="600">
+<img src="https://github.com/SuzukiJhor/Gym-website/assets/95131108/8558663d-8ff6-41d2-8823-987fab696c00" alt="image" width="900" height="400">
+
+
 
 
 
