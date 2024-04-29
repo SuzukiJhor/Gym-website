@@ -17,7 +17,7 @@ const Plans = () => {
 
         <div className="plans">
             {plansData.map((plan, index)=>{
-                console.log(plan)
+            
                 return (
                     <div className="plan" key={index}>
                         {plan.icon}
@@ -27,7 +27,7 @@ const Plans = () => {
                         <div className="features">
                             {plan.features.map((feature, index)=>{
                                 return (
-                                    <div className="feature">
+                                    <div className="feature" key={index}>
                                         <img src={whiteTick} alt="" />
                                         <span key={index}>{feature}</span>
                                     </div>

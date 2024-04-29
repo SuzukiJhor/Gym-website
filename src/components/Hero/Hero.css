@@ -174,7 +174,7 @@
 
 .calories>div {
     display: flex;
-    flex-direction: column;
+    gap: 2rem;
     justify-content: space-between;
 }
 

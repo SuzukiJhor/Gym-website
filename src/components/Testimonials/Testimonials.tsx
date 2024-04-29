@@ -4,10 +4,13 @@ import { testimonialsData } from '../../data/testimonialsData';
 import leftArrow from '../../assets/leftArrow.png';
 import RightArrow from '../../assets/rightArrow.png'
 import { useState } from 'react';
+import {motion} from 'framer-motion'
 
 const Testimonials = () => {
   const [selected , setSelected] = useState(0)
   const DataLength = testimonialsData.length;
+
+  const transition = {type: 'spring', duration: 3};
   return (
     <div className="testimonials">
         <div className="left-t">
@@ -27,8 +30,8 @@ const Testimonials = () => {
         </div>
 
         <div className="right-t">
-          <div></div>
-          <div></div>
+        <motion.div initial={{opacity: 0, x: -100}} whileInView={{opacity: 1, x: 0}} transition={{...transition, duration: 2}}></motion.div>
+          <motion.div initial={{opacity: 0, x: 100}} whileInView={{opacity: 1, x: 0}} transition={{...transition, duration: 2}}></motion.div>
           <img src={testimonialsData[selected].image} alt="" />
 
           <div className="arrows">
