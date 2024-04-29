@@ -1,27 +1,55 @@
 import React from 'react'
 import './Testimonials.css'
 import { testimonialsData } from '../../data/testimonialsData';
+import leftArrow from '../../assets/leftArrow.png';
+import RightArrow from '../../assets/rightArrow.png'
+import { useState } from 'react';
 
 const Testimonials = () => {
+  const [selected , setSelected] = useState(0)
+  const DataLength = testimonialsData.length;
   return (
     <div className="testimonials">
         <div className="left-t">
             <span>Testimonials</span>
-            <span className="stroke-text">O que eles Dizem </span>
+            <span className="stroke-text">O que Falam </span>
             <span>Sobre Nós</span>
             <span>
-              {testimonialsData[0].review}
+              {testimonialsData[selected].review}
             </span>
             <span>
-              <span>
-                {testimonialsData[0].name}
+              <span style={{color: "var(--orange)"}}>
+                {testimonialsData[selected].name}
               </span>
 
-              {''} - {testimonialsData[0].status}
+              {""} - {testimonialsData[selected].status}
             </span>
         </div>
 
-        <div className="right-t">lado Direito</div>
+        <div className="right-t">
+          <div></div>
+          <div></div>
+          <img src={testimonialsData[selected].image} alt="" />
+
+          <div className="arrows">
+            <img 
+              onClick={()=>{
+                selected === 0
+                ? setSelected(DataLength - 1)
+                : setSelected((prev)=> prev - 1)
+              }}
+              src={leftArrow} 
+              alt="" />
+
+            <img 
+              onClick={()=>{
+                selected === DataLength - 1
+                ? setSelected(0)
+                : setSelected((prev)=> prev + 1)
+              }}
+              src={RightArrow} alt="" />
+          </div>
+        </div>
     </div>
   )
 }
