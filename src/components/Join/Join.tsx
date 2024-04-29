@@ -8,7 +8,7 @@ const Join = () => {
             <hr/>
             <div>
                 <span className="stroke-text">Pronto </span>
-                <span>Para o PRÓXIMO Nível</span>
+                <span>Para o PRÓXIMO Nível ?</span>
             </div>
         
             <div>
