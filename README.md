@@ -1,8 +1,5 @@
-## React + TypeScript + Vite
-
-### Demo: 
-
-https://focus-gym-fitness.pages.dev/
+React + TypeScript + Vite
+### 💻 [Link demo](https://focus-gym-fitness.pages.dev/)
 
 ### Apresentação:
 
