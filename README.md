@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+## React + TypeScript + Vite
 
 Este modelo fornece uma configuração mínima para fazer o React funcionar no Vite com HMR e algumas regras ESLint.
 
