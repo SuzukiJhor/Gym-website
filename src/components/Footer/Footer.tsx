@@ -1,4 +1,3 @@
-import React from 'react'
 import './Footer.css'
 import GitHub from '../../assets/github.png'
 import Instagram from '../../assets/instagram.png'

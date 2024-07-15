@@ -1,4 +1,3 @@
-import React from 'react'
 import './Testimonials.css'
 import { testimonialsData } from '../../data/testimonialsData';
 import leftArrow from '../../assets/leftArrow.png';
